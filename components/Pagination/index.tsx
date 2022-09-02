@@ -8,3 +8,13 @@ interface IPropsComponent {
     page: number;
     total_pages: number;
 }
+
+// Componente Pagination
+
+export default function PaginationComponent({ handleChange, page, total_pages }: IPropsComponent) {
+    return (
+        <div>
+            <Pagination count={total_pages} page={page} color="secondary" onChange={handleChange} />
+        </div>
+    )
+};
