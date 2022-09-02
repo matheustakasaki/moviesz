@@ -54,7 +54,7 @@ const Home = ({ list, page, total_pages, searchParam }:
   return (
     <div className={styles.container}>
       <Head>
-        <title>Projeto aula NextJS MovieDB</title>
+        <title>MoviesZ</title>
         <meta name="description" content="Gerado pelo create next app" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
