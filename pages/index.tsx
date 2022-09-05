@@ -83,11 +83,11 @@ const Home = ({ list, page, total_pages, searchParam }:
               <div>
                 {item.vote_average ? (
                   <p>
-                    Nota: <span>{item.vote_average}</span>
+                    Score: <span>{item.vote_average}</span>
                   </p>
                 ) : (
                   <p>
-                    Nota: <span>Sem avaliação</span>
+                    Score: <span>Sem avaliação</span>
                   </p>
                 )}
               </div>
