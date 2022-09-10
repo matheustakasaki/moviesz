@@ -63,7 +63,7 @@ const Home = ({ list, page, total_pages, searchParam }:
         <div className={styles.formSearch}>
           <form onSubmit={handleSearchMovie}>
             <input type="text" placeholder="Procure por um filme ou série..." onChange={(e) => setSearch(e.target.value)} />
-            <button type="submit">Search</button>
+            <button type="submit">Pesquisar</button>
           </form>
         </div>
 
