@@ -69,7 +69,7 @@ const Home = ({ list, page, total_pages, searchParam }:
 
         <div className={styles.titleContainer}>
           {result ? (<h1>Resultados de busca para: {`${result}`}</h1>)
-            : (<h1>Filmes Populares</h1>)}
+            : (<h1>Títulos Populares</h1>)}
         </div>
 
         <div className={styles.moviesCointainer}>
