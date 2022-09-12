@@ -35,4 +35,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Objetivo
 
-Este projeto foi criado com o objetivo de aperfeiçoar conhecimentos em Nextjs.
+Este projeto foi criado com o objetivo de aperfeiçoar conhecimentos em Nextjs e Typescript.
