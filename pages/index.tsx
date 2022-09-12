@@ -69,7 +69,7 @@ const Home = ({ list, page, total_pages, searchParam }:
 
         <div className={styles.titleContainer}>
           {result ? (<h1>Resultados de busca para: {`${result}`}</h1>)
-            : (<h1>Filmes Populares</h1>)}
+            : (<h1>Títulos Populares</h1>)}
         </div>
 
         <div className={styles.moviesCointainer}>
@@ -83,11 +83,11 @@ const Home = ({ list, page, total_pages, searchParam }:
               <div>
                 {item.vote_average ? (
                   <p>
-                    Nota: <span>{item.vote_average}</span>
+                    Pontos: <span>{item.vote_average}</span>
                   </p>
                 ) : (
                   <p>
-                    Nota: <span>Sem avaliação</span>
+                    Pontos: <span>Sem avaliação</span>
                   </p>
                 )}
               </div>
@@ -151,29 +151,3 @@ export async function getServerSideProps({
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
